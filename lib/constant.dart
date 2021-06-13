@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 const kSendButtonTextStyle = TextStyle(
@@ -21,8 +20,7 @@ const kMessageContainerDecoration = BoxDecoration(
 
 const kInputDecoration = InputDecoration(
   hintStyle: TextStyle(fontSize: 20.0, color: Colors.grey),
-  contentPadding:
-  EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
+  contentPadding: EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
   border: OutlineInputBorder(
     borderRadius: BorderRadius.all(Radius.circular(32.0)),
   ),
